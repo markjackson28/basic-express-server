@@ -1,0 +1,31 @@
+{
+  "name": "basic-express-server",
+  "version": "1.0.0",
+  "description": "## Current LAB - 02",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.2.4",
+    "nodemon": "^2.0.13",
+    "npm-watch": "^0.11.0",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage",
+    "test-watch": "jest --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markjackson28/basic-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markjackson28/basic-express-server/issues"
+  },
+  "homepage": "https://github.com/markjackson28/basic-express-server#readme"
+}
