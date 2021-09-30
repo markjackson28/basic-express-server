@@ -11,8 +11,8 @@ From a business requirements standpoint, we will be building a basic Express ser
 ### Collaborators: Alex W(Instructor), Heather B, Charlie F, 
 
 ### Links and Resources
-* [Deployed Link (devBranch)]()
-* [Deployed Link (mainBranch)]()
+* [Deployed Link (devBranch)](https://markt-basic-express-server-dev.herokuapp.com/)
+* [Deployed Link (mainBranch)](https://mt-basic-express-server-prod.herokuapp.com/)
 
 
 ### Reflections and Comments
