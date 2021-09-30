@@ -2,13 +2,13 @@
 
 ## Current LAB - 02
 
-## Express
+## Express Testing
 
 From a business requirements standpoint, we will be building a basic Express server using best practices, including server modularization, use of middleware, and tests.
 
 ### Author: Mark Thanadabouth
 
-### Collaborators: Alex W(Instructor),
+### Collaborators: Alex W(Instructor), Heather B, Charlie F, 
 
 ### Links and Resources
 * [Deployed Link (devBranch)]()
@@ -20,12 +20,12 @@ From a business requirements standpoint, we will be building a basic Express ser
 
 ### LAB - 02
 
-Name of feature: Express
+Name of feature: Express Tests
 
 Estimate of time needed to complete: 2 Hours
 
-Start time: pm
+Start time: 4pm (09/29)
 
-Finish time: pm
+Finish time: 7:30pm
 
-Actual time needed to complete:
+Actual time needed to complete: about 2.5 hours
