@@ -13,9 +13,10 @@
   },
   "jest": {
     "testPathIgnorePatterns": [
-      "__tests__/logger.test",
-      "__tests__/validator.test"
-    ],
+      "__test__/logger.test",
+      "__test__/validator.test"
+    ]
+  },
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
