@@ -28,6 +28,7 @@ app.get('/person', (req, res) => {
 app.use('*', notFoundHandler);
 app.use(errorHandler);
 
+// Exports to index.js
 module.exports = {
   server: app,
   start: port => {
