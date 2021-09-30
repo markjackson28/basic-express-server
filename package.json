@@ -11,12 +11,6 @@
     "npm-watch": "^0.11.0",
     "supertest": "^6.1.6"
   },
-  "jest": {
-    "testPathIgnorePatterns": [
-      "__test__/logger.test",
-      "__test__/validator.test"
-    ]
-  },
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
