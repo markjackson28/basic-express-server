@@ -7,6 +7,7 @@ const app = express();
 const notFoundHandler = require('./error-handlers/404');
 const errorHandler = require('./error-handlers/500');
 const logger = require('./middleware/logger');
+const validator = require('./middleware/vaildator');
 
 // Global Middlware
 app.use(logger);
@@ -17,7 +18,7 @@ app.get('/', (req, res) => {
   res.status(200).send('Hello Main Sever');
 });
 
-app.get('/person', (req, res) => {
+app.get('/person', validator, (req, res) => {
   const person = {
     name: req.query.name,
   }
