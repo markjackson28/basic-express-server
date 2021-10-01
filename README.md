@@ -2,18 +2,38 @@
 
 ## Current LAB - 02
 
-## Express Testing
+## Express Server Testing
 
-From a business requirements standpoint, we will be building a basic Express server using best practices, including server modularization, use of middleware, and tests.
+From a business requirements standpoint, we will be building a basic Express server using best practices, including server modularization, use of middleware, and tests. This is a basic express server.
 
 ### Author: Mark Thanadabouth
 
 ### Collaborators: Alex W(Instructor), Heather B, Charlie F, 
 
-### Links and Resources
+#### Links and Resources
 * [Deployed Link (devBranch)](https://markt-basic-express-server-dev.herokuapp.com/)
 * [Deployed Link (mainBranch)](https://mt-basic-express-server-prod.herokuapp.com/)
 
+### Setup
+
+#### `.env` requirements
+- `PORT` - Port Number
+
+#### Running App
+- `npm start` or `npx nodemon`
+
+Endpoints:
+- `/`
+> Hello Main Server
+- `/person?name=<insertName>`
+> Returns 'name' object 
+
+#### Tests
+- `npm test`
+
+
+### UML
+> <img src="src/UML/401lab02_UML.jpg" width="300"/>
 
 ### Reflections and Comments
 * Start date (09/28)
