@@ -1,23 +1,36 @@
-# basic-express-server
+# AWS: Cloud Servers
 
-## Current LAB - 02
+## Current LAB - 16
 
-## Express Server Testing
+## Deploy a Node.js server to AWS EC2
 
-From a business requirements standpoint, we will be building a basic Express server using best practices, including server modularization, use of middleware, and tests. This is a basic express server.
+Deploy a simple Node.js server to EC2, using Elastic Beanstalk
+
+- Choose a server you’ve built previously
+- Option 1: A simple API or Web Server
+- Option 2: A socket.io event Hub
+- The server should not require a database
+- Check in your server to GitHub
+
+Task 1:
+
+- Create a new environment, using Elastic Beanstalk from the AWS Control Panel (GUI)
+- Manually deploy your application to this environment by uploading a .zip file
+
+Task 2:
+
+- Using the same server, create a new environment using Elastic Beanstalk from your terminal
+- Manually deploy your application to this environment by using `eb deploy`
 
 ### Author: Mark Thanadabouth
 
-### Collaborators: Alex W(Instructor), Heather B, Charlie F, 
+### Collaborators:
 
 #### Links and Resources
-* [Deployed Link (devBranch)](https://markt-basic-express-server-dev.herokuapp.com/)
-* [Deployed Link (mainBranch)](https://mt-basic-express-server-prod.herokuapp.com/)
+* [GUI Deploy](http://guideploybasicexpressserver-env-1.eba-nmnrikf6.us-west-2.elasticbeanstalk.com/)
+* [CLI Deploy](http://basic-express-server-dev.us-west-2.elasticbeanstalk.com/)
 
 ### Setup
-
-#### `.env` requirements
-- `PORT` - Port Number
 
 #### Running App
 - `npm start` or `npx nodemon`
@@ -25,8 +38,6 @@ From a business requirements standpoint, we will be building a basic Express ser
 Endpoints:
 - `/`
 > Hello Main Server
-- `/person?name=<insertName>`
-> Returns 'name' object 
 
 #### Tests
 - `npm test`
@@ -36,16 +47,16 @@ Endpoints:
 > <img src="src/UML/401lab02_UML.jpg" width="300"/>
 
 ### Reflections and Comments
-* Start date (09/28)
+* Start date (11/16)
 
 ### LAB - 02
 
-Name of feature: Express Tests
+Name of feature: Deploy a simple Node.js server to EC2, using Elastic Beanstalk
 
 Estimate of time needed to complete: 2 Hours
 
-Start time: 4pm (09/29)
+Start time: 8pm
 
-Finish time: 7:30pm
+Finish time: 10pm
 
-Actual time needed to complete: about 2.5 hours
+Actual time needed to complete: 2 hours
